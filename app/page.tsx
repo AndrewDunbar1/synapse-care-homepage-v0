@@ -14,7 +14,7 @@ export default function Home() {
         {/* Header */}
         <header className="py-6">
           <div className="flex items-center">
-            <Image src="/logo.png" alt="Synapse Care" width={200} height={60} className="h-12 w-auto" priority />
+            <Image src="/logo.png" alt="Synapse Care" width={800} height={240} className="h-48 w-auto" priority />
           </div>
         </header>
 
@@ -91,7 +91,7 @@ export default function Home() {
         <footer className="py-8 border-t border-gray-800 mt-10">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <Image src="/logo.png" alt="Synapse Care" width={150} height={45} className="h-8 w-auto" />
+              <Image src="/logo.png" alt="Synapse Care" width={600} height={180} className="h-32 w-auto" />
             </div>
             <div className="text-gray-400 text-sm">© 2025 Synapse Care. All rights reserved.</div>
           </div>
